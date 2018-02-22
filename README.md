@@ -24,3 +24,13 @@ Luego debemos saber el nombre del archivo con el que se monto el dispositivo, us
 
 Finalmente podemos accesar al dispositivo buscandolo en el directorio `/dev/` 
 
+## Obtener y compilar el SDK
+
+El SDK se encuentra disponible en la [pagina de SLAMTEC](http://www.slamtec.com/en/support). El mismo soporta Windows, OSX y Linux. Para compilar la libreria y los programas de ejemplo basta usar el makefile que viene includo.
+
+La documentacion del SDK se puede obtener en la misma pagina.
+
+### Compilar y enlazar con otros programas
+
+El SDK del RPLidar usa C/C++, para poder usarlo en nuestros programas ocupamos incluir los headers en nuestro codigo fuente y ademas enlazar la libreria al compilar.
+
